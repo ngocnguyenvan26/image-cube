@@ -156,7 +156,7 @@ li {
     transform: rotateY(90deg) translateZ(100px);
 }
 
-.box:hover ol li:nth-child(1), .box:focus ol li:nth-child(1) {
+.box:hover ol li:nth-child(1), .box:active ol li:nth-child(1) {
     transform: translateZ(300px);
     width: 400px;
     height: 400px;
@@ -165,7 +165,7 @@ li {
     top: -100px;
 }
 
-.box:hover ol li:nth-child(2), .box:focus ol li:nth-child(2) {
+.box:hover ol li:nth-child(2), .box:active ol li:nth-child(2) {
     transform: rotateX(180deg) translateZ(300px);
     width: 400px;
     height: 400px;
@@ -174,7 +174,7 @@ li {
     top: -100px;
 }
 
-.box:hover ol li:nth-child(3), .box:focus ol li:nth-child(3) {
+.box:hover ol li:nth-child(3), .box:active ol li:nth-child(3) {
     transform: rotateX(-90deg) translateZ(300px);
     width: 400px;
     height: 400px;
@@ -183,7 +183,7 @@ li {
     top: -100px;
 }
 
-.box:hover ol li:nth-child(4), .box:focus ol li:nth-child(4) {
+.box:hover ol li:nth-child(4), .box:active ol li:nth-child(4) {
     transform: rotateX(90deg) translateZ(300px);
     width: 400px;
     height: 400px;
@@ -192,7 +192,7 @@ li {
     top: -100px;
 }
 
-.box:hover ol li:nth-child(5), .box:focus ol li:nth-child(5) {
+.box:hover ol li:nth-child(5), .box:active ol li:nth-child(5) {
     transform: rotateY(-90deg) translateZ(300px);
     width: 400px;
     height: 400px;
@@ -201,7 +201,7 @@ li {
     top: -100px;
 }
 
-.box:hover ol li:nth-child(6), .box:focus ol li:nth-child(6) {
+.box:hover ol li:nth-child(6), .box:active ol li:nth-child(6) {
     transform: rotateY(90deg) translateZ(300px);
     width: 400px;
     height: 400px;
@@ -213,7 +213,7 @@ li {
     -ms-transform: rotateY(90deg) translateZ(300px);
     -o-transform: rotateY(90deg) translateZ(300px);
 }
-.box:hover ul li:nth-child(1), .box:focus ul li:nth-child(1) {
+.box:hover ul li:nth-child(1), .box:active ul li:nth-child(1) {
     transform: translateZ(100px);
     width: 100px;
     height: 100px;
@@ -226,7 +226,7 @@ li {
     -o-transform: translateZ(100px);
 }
 
-.box:hover ul li:nth-child(2), .box:focus ul li:nth-child(2) {
+.box:hover ul li:nth-child(2), .box:active ul li:nth-child(2) {
     transform: rotateX(180deg) translateZ(100px);
     width: 100px;
     height: 100px;
@@ -239,7 +239,7 @@ li {
     -o-transform: rotateX(180deg) translateZ(100px);
 }
 
-.box:hover ul li:nth-child(3), .box:focus ul li:nth-child(3) {
+.box:hover ul li:nth-child(3), .box:active ul li:nth-child(3) {
     transform: rotateX(-90deg) translateZ(100px);
     width: 100px;
     height: 100px;
@@ -252,7 +252,7 @@ li {
     -o-transform: rotateX(-90deg) translateZ(100px);
 }
 
-.box:hover ul li:nth-child(4), .box:focus ul li:nth-child(4) {
+.box:hover ul li:nth-child(4), .box:active ul li:nth-child(4) {
     transform: rotateX(90deg) translateZ(100px);
     width: 100px;
     height: 100px;
@@ -265,7 +265,7 @@ li {
     -o-transform: rotateX(90deg) translateZ(100px);
 }
 
-.box:hover ul li:nth-child(5), .box:focus ul li:nth-child(5) {
+.box:hover ul li:nth-child(5), .box:active ul li:nth-child(5) {
     transform: rotateY(-90deg) translateZ(100px);
     width: 100px;
     height: 100px;
@@ -278,7 +278,7 @@ li {
     -o-transform: rotateY(-90deg) translateZ(100px);
 }
 
-.box:hover ul li:nth-child(6), .box:focus ul li:nth-child(6) {
+.box:hover ul li:nth-child(6), .box:active ul li:nth-child(6) {
     transform: rotateY(90deg) translateZ(100px);
     width: 100px;
     height: 100px;
