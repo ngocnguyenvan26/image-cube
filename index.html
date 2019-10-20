@@ -10,6 +10,22 @@
             position: absolute;
             margin: auto 50px;
         }
+        .box {
+                margin-top:350px
+            }
+        @media all and (min-width: 601px) {
+            .title {
+                width: 100%;
+                top: -500px;
+                position: absolute;
+                color: #fff;
+                margin: 20px;
+                text-align: center;
+            }
+            .box {
+                margin-top:600px;
+            }
+        }
     </style>
 </head>
 
@@ -20,7 +36,7 @@
         <h2>Chúc Nhung luôn xinh đẹp và hạnh phúc nhé &#128513</h2>
     </div>
   
-    <div class="box" id="box" style="margin-top:350px" >
+    <div class="box" id="box">
         <ul class="minbox">
             <li></li>
             <li></li>
@@ -43,7 +59,9 @@
     var box = document.getElementById("box");
     box.onclick = function(event) { 
         console.log('click');
-        box.classList.toggle('click');
+        setTimeout(() => {
+            box.classList.toggle('click');
+        }, 100);
         // var li = box.getElementsByTagName('li');
         // li.forEach(e => {
         //     e.c
